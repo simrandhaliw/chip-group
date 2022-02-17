@@ -1,0 +1,220 @@
+.pf-c-label.mas-m-solid.pf-m-blue {
+  --pf-c-label__content--before--BorderColor: transparent;
+  --pf-c-label--BackgroundColor: var(--pf-global--palette--blue-400);
+  --pf-c-label__content--Color: var(--pf-global--palette--white);
+  font-weight: var(--pf-global--FontWeight--bold);
+  min-width: calc(
+    (var(--pf-c-label--FontSize) * var(--pf-global--LineHeight--md)) +
+      (var(--pf-c-label--PaddingTop) + var(--pf-c-label--PaddingBottom))
+  ); /* ensure it's at least as wide as it is tall */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pf-c-label.mas-m-solid.pf-m-grey {
+  --pf-c-label__content--before--BorderColor: transparent;
+  --pf-c-label--BackgroundColor: var(--pf-global--palette--black-600);
+  --pf-c-label__content--Color: var(--pf-global--palette--white);
+  font-weight: var(--pf-global--FontWeight--bold);
+  min-width: calc(
+    (var(--pf-c-label--FontSize) * var(--pf-global--LineHeight--md)) +
+      (var(--pf-c-label--PaddingTop) + var(--pf-c-label--PaddingBottom))
+  ); /* ensure it's at least as wide as it is tall */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pf-c-label.mas-m-solid.pf-m-green {
+  --pf-c-label__content--before--BorderColor: transparent;
+  --pf-c-label--BackgroundColor: var(--pf-global--palette--green-500);
+  --pf-c-label__content--Color: var(--pf-global--palette--white);
+  font-weight: var(--pf-global--FontWeight--bold);
+  min-width: calc(
+    (var(--pf-c-label--FontSize) * var(--pf-global--LineHeight--md)) +
+      (var(--pf-c-label--PaddingTop) + var(--pf-c-label--PaddingBottom))
+  ); /* ensure it's at least as wide as it is tall */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pf-c-label.mas-m-solid.pf-m-orange {
+  --pf-c-label__content--before--BorderColor: transparent;
+  --pf-c-label--BackgroundColor: var(--pf-global--palette--orange-400);
+  --pf-c-label__content--Color: var(--pf-global--palette--white);
+  font-weight: var(--pf-global--FontWeight--bold);
+  min-width: calc(
+    (var(--pf-c-label--FontSize) * var(--pf-global--LineHeight--md)) +
+      (var(--pf-c-label--PaddingTop) + var(--pf-c-label--PaddingBottom))
+  ); /* ensure it's at least as wide as it is tall */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .pf-c-label.mas-m-solid.pf-m-blue {
+    --pf-c-label--BackgroundColor: var(--pf-global--palette--blue-400);
+  } */
+/* .pf-c-label.mas-m-solid.pf-m-green {
+    --pf-c-label--BackgroundColor: var(--pf-global--palette--green-500);
+  }
+  .pf-c-label.mas-m-solid.pf-m-orange {
+    --pf-c-label--BackgroundColor: var(--pf-global--palette--orange-400);
+  } */
+
+/* .pf-c-button.pf-m-plain.one {
+    --pf-c-button--PaddingTop: 0.25rem;
+  } */
+
+.child {
+  display: inline-block;
+}
+
+.pf-c-label.mas-m-solid.pf-m-blue.smaller-label {
+  --pf-c-label__content--before--BorderColor: transparent;
+  --pf-c-label--BackgroundColor: var(--pf-global--palette--blue-400);
+  --pf-c-label__content--Color: var(--pf-global--palette--white);
+  font-weight: var(--pf-global--FontWeight--bold);
+  font-size: calc(var(--pf-global--FontSize--xs) * 0.9);
+  min-width: calc(
+    (
+        (var(--pf-c-label--FontSize) * var(--pf-global--LineHeight--md)) +
+          (var(--pf-c-label--PaddingTop) + var(--pf-c-label--PaddingBottom))
+      ) * 0.85
+  );
+  min-height: calc(
+    (
+        (var(--pf-c-label--FontSize) * var(--pf-global--LineHeight--md)) +
+          (var(--pf-c-label--PaddingTop) + var(--pf-c-label--PaddingBottom))
+      ) * 0.85
+  );
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pf-c-label.mas-m-solid.pf-m-grey.smaller-label {
+  --pf-c-label__content--before--BorderColor: transparent;
+  --pf-c-label--BackgroundColor: var(--pf-global--palette--black-600);
+  --pf-c-label__content--Color: var(--pf-global--palette--white);
+  font-weight: var(--pf-global--FontWeight--bold);
+  font-size: calc(var(--pf-global--FontSize--xs) * 0.9);
+  min-width: calc(
+    (
+        (var(--pf-c-label--FontSize) * var(--pf-global--LineHeight--md)) +
+          (var(--pf-c-label--PaddingTop) + var(--pf-c-label--PaddingBottom))
+      ) * 0.85
+  );
+  min-height: calc(
+    (
+        (var(--pf-c-label--FontSize) * var(--pf-global--LineHeight--md)) +
+          (var(--pf-c-label--PaddingTop) + var(--pf-c-label--PaddingBottom))
+      ) * 0.85
+  );
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pf-c-label.mas-m-solid.pf-m-green.smaller-label {
+  --pf-c-label__content--before--BorderColor: transparent;
+  --pf-c-label--BackgroundColor: var(--pf-global--palette--green-500);
+  --pf-c-label__content--Color: var(--pf-global--palette--white);
+  font-size: calc(var(--pf-global--FontSize--xs) * 0.9);
+  min-width: calc(
+    (
+        (var(--pf-c-label--FontSize) * var(--pf-global--LineHeight--md)) +
+          (var(--pf-c-label--PaddingTop) + var(--pf-c-label--PaddingBottom))
+      ) * 0.85
+  );
+  min-height: calc(
+    (
+        (var(--pf-c-label--FontSize) * var(--pf-global--LineHeight--md)) +
+          (var(--pf-c-label--PaddingTop) + var(--pf-c-label--PaddingBottom))
+      ) * 0.85
+  );
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .pf-c-chip-group.extra-padding {
+    padding-top: calc(var(--pf-c-chip-group--m-category--PaddingTop) * 0.5);
+    padding-right: var(--pf-c-chip-group--m-category--PaddingRight);
+    padding-bottom: calc(
+      var(--pf-c-chip-group--m-category--PaddingBottom) * 0.01
+    );
+    padding-left: var(--pf-c-chip-group--m-category--PaddingLeft);
+  } */
+
+.box {
+  inline-size: 750px;
+  padding-left: 1rem;
+}
+
+/* .text-color {
+    color: var(--pf-global--palette--orange-400);
+    
+  }  */
+
+.myTextColor span {
+  color: rgb(234, 0, 255); /* other font properties */
+}
+
+.pf-c-chip-group.bkg-color {
+  background-color: var(--pf-c-label--BackgroundColor);
+  /* border: var(--pf-c-label--BackgroundColor); */
+  /* fill: var(--pf-c-label--BackgroundColor); */
+  --pf-c-label--BackgroundColor: var(--pf-global--palette--blue-100);
+  /* --pf-global--BorderColor: var(--pf-global--palette--green-500); */
+  /* --pf-global--BackgroundColor: var(--pf-global--palette--green-500); */
+
+  /* padding-top: calc(var(--pf-c-chip-group--m-category--PaddingTop) * 0.5);
+    padding-right: var(--pf-c-chip-group--m-category--PaddingRight);
+    padding-bottom: calc(
+      var(--pf-c-chip-group--m-category--PaddingBottom) * 0.01
+    );
+    padding-left: var(--pf-c-chip-group--m-category--PaddingLeft); */
+}
+
+.pf-c-chip-group__close {
+  display: flex;
+  align-self: center;
+  --pf-c-chip-group__close--MarginTop: 0;
+  /* margin-top: var(--pf-c-chip-group__close--MarginTop); this would normally push it up into the padding of the chip group */
+  /* margin-bottom: var(--pf-c-chip-group__close--MarginBottom); This one isn't actually affecting it since it's taller */
+}
+
+.pf-c-chip.custom-c-chip {
+  --pf-c-chip--before--BorderColor: blue;
+  --pf-c-chip__c-button--PaddingTop: 0;
+  --pf-c-chip__c-button--PaddingRight: 0;
+  --pf-c-chip__c-button--PaddingBottom: 0;
+  --pf-c-chip__c-button--PaddingLeft: 0;
+  --pf-c-chip--PaddingTop: var(--pf-global--BorderWidth--sm);
+  --pf-c-chip--PaddingRight: var(--pf-global--BorderWidth--sm);
+  --pf-c-chip--PaddingBottom: var(--pf-global--BorderWidth--sm);
+  --pf-c-chip--PaddingLeft: var(--pf-global--BorderWidth--sm);
+}
+
+.pf-c-chip.custom-c-chip {
+  --pf-c-chip__text--MaxWidth: auto;
+}
+
+.pf-c-chip-group.foo {
+  --pf-c-chip-group--m-category--BackgroundColor: lightblue;
+}
+
+.pf-c-chip-group.bar {
+  --pf-c-chip-group--m-category--BackgroundColor: darkgray;
+}
+
+/* .row #cGLabelWithText {
+  white-space: nowrap;
+}
+.row > div #cGLabelWithText {
+  width: 100px;
+  display: inline-block;
+} */
